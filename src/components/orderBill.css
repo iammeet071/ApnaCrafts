@@ -1,0 +1,28 @@
+.bill{
+	width: 400px;
+	margin: 0 auto;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.226);
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 10px;
+}
+.products{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 30px;
+	font-weight: bold;
+}
+.subtotal{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 30px;
+}
+.bill-head{
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+	padding: 10px;
+	text-align: center;
+}

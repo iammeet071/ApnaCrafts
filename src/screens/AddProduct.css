@@ -1,0 +1,72 @@
+header {
+	background-color: red;
+	text-align: center;
+	padding: 5px 10px;
+  }
+  header h1 {
+	color: white;
+	border: 8px solid white;
+	border-radius: 30px;
+	display: inline-block;
+	padding: 4px 8px;
+  }
+  form label {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-left: 30px;
+  }
+  form input {
+	margin: 20px 0;
+	padding: 5px 10px;
+	font-size: 1.1em;
+	margin-right: 100px;
+  }
+  form textarea {
+	margin: 20px 0;
+	padding: 5px 10px;
+	font-size: 1.1em;
+	margin-left: 30px;
+	width: 40em;
+  }
+  form .pname:hover {
+	border-radius: 20px;
+	outline: none;
+  }
+  form .price:hover {
+	border-radius: 20px;
+	outline: none;
+  }
+  form textarea:hover {
+	border-radius: 20px;
+	outline: none;
+  }
+  form .image {
+	border: 2px solid gainsboro;
+  }
+  form .image:hover {
+	border-radius: 20px;
+	outline: none;
+  }
+  form .pname:valid {
+	border: 3px solid #71d300;
+	border-radius: 20px;
+	outline: none;
+  }
+  form .price:valid {
+	border: 3px solid #71d300;
+	border-radius: 20px;
+	outline: none;
+  }
+  form .image:valid {
+	border: 3px solid #71d300;
+	border-radius: 20px;
+	outline: none;
+  }
+  form .addProduct {
+	border: 3px solid red;
+	border-radius: 20px;
+	color: white;
+	background-color: red;
+	cursor: pointer;
+  }
+  

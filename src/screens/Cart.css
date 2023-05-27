@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin : 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.Cart{
+    width:100%;
+}
+.Cart-title{
+    background-color: cadetblue;
+    color: cornsilk;
+}
+
+.Cart-Products{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 95%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.pr{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+p{
+    color:#53555e;
+}
+p span{
+    color:#000;
+    font-weight:900;
+
+}
+.Product-Image img {
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+}
+.heading{
+    border-bottom:1px solid  brown;
+    /* margin-bottom: 40px; */
+}
+.P-Details{
+}
+.P-Quantity{
+    
+}
+.P-Box{
+    display: flex;
+    align-items: center;
+}
+.P-Box img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+.P-Box input {
+    margin: 10px;
+    width:50px;
+    height: 30px;
+}
+.P-Box input {
+    text-align: center;
+}
+.P-Box button{
+    outline:none;
+    border: none;
+    overflow: none;
+    
+}
+
+@media (max-width : 992px){
+    .Cart-Products{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

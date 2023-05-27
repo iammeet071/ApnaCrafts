@@ -1,0 +1,124 @@
+.leftbody {
+	padding-top: 20px;
+	margin-left: 1.7em;
+	width: 16%;
+	display: flex;
+	flex-direction: column;
+	border-right: 1px solid rgba(221, 218, 224, 0.486);
+  }
+  .leftbody h3 {
+	padding-bottom: 20px;
+	font-size: 17px;
+  }
+  .leftbody-category {
+	padding-top: 20px;
+	border-top: 1px solid rgba(221, 218, 224, 0.486);
+	margin-bottom: 20px;
+  }
+  .leftbody-category h3 {
+	padding-bottom: 20px;
+	font-size: 17px;
+	border-bottom: 1px solid rgba(221, 218, 224, 0.486);
+  }
+  .leftbody-checkbox {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+  }
+  .leftbody-checkbox div {
+	padding-bottom: 10px;
+  }
+  
+  .cardsss {
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+  }
+
+
+  .wholebody {
+	display: flex;
+	flex-direction: column;
+  }
+  .leftbody {
+	flex: 1;
+	max-width: 20em;
+  }
+  .rightbody {
+	
+  }
+  
+  @media screen and (max-width: 960px) {
+	.leftbody{
+		display: none;
+	}
+	.rightbody{
+	
+	}
+}
+
+.home-page {
+	margin: 10px 10px 0px 10px;
+  }
+  .home-description {
+	margin-top: 30px;
+  }
+  .home-description h1 {
+	margin-bottom: 30px;
+	color: rgba(0, 0, 0, 0.877);
+  }
+  .home-description p {
+	margin: 30px 200px 100px 200px;
+	font-size: 16px;
+	color: rgb(78, 78, 78);
+	text-align: center;
+  }
+  .home-state-products h1 {
+	margin-bottom: 50px;
+	margin-left: 10em;
+	margin-right: 10em;
+	color: rgba(0, 0, 0, 0.877);
+	border-bottom: 1px solid rgba(255, 0, 0, 0.541);
+  }
+  .home-state-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+  }
+  .home-state-images img {
+	max-width: 25em;
+	height: 20em;
+	margin: 20px 20px 30px 20px;
+	box-shadow: 3px 13px 7px #aaaaaa;
+  }
+
+  .home-state-images img:hover{
+	  transform: scale(1.1);
+	  transition: ease-in-out 1s;
+	  cursor: pointer;
+  }
+  
+  .filterdiv{
+	  width: 100%;
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+  }
+  .filterbtn{
+	  height: 40px;
+	  width: 100px;
+	  background-color: #000;
+	  color:white;
+	  border: none;
+	  border-radius: 20px;
+	  margin-right: 20px;
+  }
+  .filters select{
+	  height: 40px;
+	  width: 120px;
+	  margin-left: 20px;
+  }
+  .filters{
+	  align-items: center;
+	  margin: 0px 20px;
+  }
